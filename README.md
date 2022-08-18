@@ -12,9 +12,10 @@ python chtsh.py --help
 
 ```
 
+To a list of of topics for queried topic
+
 ```bash
 
-To a list of of topics for queried topic
 
 python chtsh.py --list
 
