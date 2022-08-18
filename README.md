@@ -37,10 +37,10 @@ python chtsh.py --search
 
 ```
 
-To search for a topic or a topic and a subtopic 
+To search for a topic or a topic and a subtopic
 
 ```bash
 
-python chtsh.py 
+python chtsh.py
 
 ```

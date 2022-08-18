@@ -48,12 +48,12 @@ def main():
 
         elif sys.argv[1] == "-learn" or sys.argv[1] == "--learn":
             topic = input("Enter the topic: ")
-            topic = "~" + "+".join(topic.split(" "))
+            topic = "+".join(topic.split(" "))
             os.system(f"curl cht.sh/{topic}/:learn")
 
         elif sys.argv[1] == "-list" or sys.argv[1] == "--list":
             topic = input("Enter the topic: ")
-            topic = "~" + "+".join(topic.split(" "))
+            topic = "+".join(topic.split(" "))
             os.system(f"curl cht.sh/{topic}/:list")
 
     else:
