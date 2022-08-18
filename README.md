@@ -36,3 +36,11 @@ To search for a cheat sheet
 python chtsh.py --search
 
 ```
+
+To search for a topic or a topic and a subtopic 
+
+```bash
+
+python chtsh.py 
+
+```
