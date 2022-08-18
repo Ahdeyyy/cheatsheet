@@ -2,11 +2,8 @@ import os
 import sys
 
 
-# This is our shell command, executed by Popen.
-
-
 def main():
-    # get the Command line arguments and if it equals to -help or -h then print the help message
+    # get the Command line arguments and check if there is any
     if len(sys.argv) == 2:
         if (
             sys.argv[1] == "-help"
