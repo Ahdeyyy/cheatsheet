@@ -43,7 +43,6 @@ def main():
         elif sys.argv[1] == "-search" or sys.argv[1] == "--search":
             keyword = input("Enter keyword: ")
             keyword = "~" + "+".join(keyword.split(" "))
-            print(keyword)
             os.system(f"curl cht.sh/{keyword}")
 
         elif sys.argv[1] == "-learn" or sys.argv[1] == "--learn":
