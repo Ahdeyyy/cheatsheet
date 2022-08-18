@@ -1,6 +1,6 @@
 # CHEATSHEET
 
-A python to generate a cheat sheet for a given language from [cht.sh](https://cht.sh)
+A python script to get a cheat sheet for a given language from [cht.sh](https://cht.sh)
 
 ## USAGE
 
