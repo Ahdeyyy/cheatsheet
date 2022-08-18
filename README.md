@@ -12,7 +12,7 @@ python chtsh.py --help
 
 ```
 
-To a list of of topics for queried topic
+To get a list of topics for queried topic
 
 ![[list]](./images/cheatsheet_list.png)
 
